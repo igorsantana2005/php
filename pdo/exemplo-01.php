@@ -11,7 +11,7 @@
 
 	//var_dump($result);
 
-	foreach ($result as $row) {	
+	foreach ($result as $row) {
 
 	foreach ($row as $key => $value) {
 		echo "<strong>".$key."</strong>".$value."<br>";
