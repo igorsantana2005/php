@@ -32,8 +32,24 @@ echo json_encode($search);
 //echo $usuario;
 
 //Carrega somente os usuários que possuem o 3 na senha:
-$senhasx = Usuario::searchpwd("3");
-echo json_encode($senhasx);
+//$senhasx = Usuario::searchpwd("3");
+//echo json_encode($senhasx);
 
+//Criando um novo usuario
+//$aluno = new Usuario("aluno", "@lun0");
+//$aluno->insert();
+//echo $aluno;
+
+//Atualizar um usuario
+//$usuario = new Usuario();
+//$usuario->loadById(5);
+//$usuario->update("professor","##aaa##");
+//echo $usuario;
+
+//Deletar um usuario
+$usuario = new Usuario();
+$usuario->loadById(5);
+$usuario->delete();
+echo $usuario;
 
 ?>
