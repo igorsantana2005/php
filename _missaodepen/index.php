@@ -10,6 +10,7 @@
 
 <?php if($db) : ?>
 
+<!--teste-->
 	<!--<div class="row">
 		<div class="col-xs-4 col-sm-3 col-md-2">
 			<a href="servidores/add.php" class="btn btn-primary">

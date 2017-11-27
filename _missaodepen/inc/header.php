@@ -31,7 +31,7 @@
 			</div>
 			<div id="navbar" class="navbar-collapse collapse">
 				<!--<ul class="nav navbar-nav">
-					<li class="dropdown">
+					<li class="dropdown">.
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
 						Clientes <span class="caret"></span>
                     	</a>
